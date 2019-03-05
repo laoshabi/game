@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:background="@drawable/bg_blue">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="255dp"
+
+        >
+
+        <TextView
+
+            android:id="@+id/text"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+
+            android:text="Guess which cat has eaten the fish？"
+
+            android:textSize="45dp"
+
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="120dp"
+
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+
+            android:layout_width="50dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/pic0"
+
+            android:src="@drawable/cat"
+
+            android:layout_weight="1"/>
+
+        <ImageView
+
+            android:layout_width="50dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/pic1"
+
+            android:src="@drawable/cat"
+
+            android:layout_weight="1"/>
+
+        <ImageView
+
+            android:layout_width="50dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="15dp"
+
+            android:id="@+id/pic2"
+
+            android:src="@drawable/cat"
+
+            android:layout_marginRight="15dp"
+
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="135dp"
+
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/butplay"
+
+            android:text="Play Again"
+
+            android:layout_gravity="center_vertical"
+
+            android:layout_marginLeft="145dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
